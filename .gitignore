@@ -10,3 +10,4 @@ research/
 .env
 .env.*
 *.log
+artifacts/

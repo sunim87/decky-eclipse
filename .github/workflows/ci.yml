@@ -32,10 +32,19 @@ jobs:
       - run: npm run test:ui
       - run: npm run build
       - run: python scripts/package.py
+      - name: Stage release artifacts
+        shell: python
+        run: |
+          from pathlib import Path
+          import shutil
+          target = Path('artifacts')
+          target.mkdir(exist_ok=True)
+          for asset in Path('..').glob('Decky-Eclipse-v*.zip*'):
+              shutil.copy2(asset, target / asset.name)
       - uses: actions/upload-artifact@v7
         with:
           name: decky-eclipse-${{ matrix.os }}
           path: |
-            ../Decky-Eclipse-v*.zip
-            ../Decky-Eclipse-v*.zip.sha256
+            artifacts/Decky-Eclipse-v*.zip
+            artifacts/Decky-Eclipse-v*.zip.sha256
           if-no-files-found: error
