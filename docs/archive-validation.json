@@ -1,0 +1,534 @@
+{
+  "method": "Real release archives, production file transaction engine, disposable Steam fixtures; Steam native option acknowledgement simulated. No gameplay validation.",
+  "games": [
+    {
+      "slug": "black-myth-wukong",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "ef9c447e31bf202657bfb746a61a9a453db07676630fa3d7c2e6bef21c198cf1"
+    },
+    {
+      "slug": "hogwarts-legacy",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 6,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "c147817212e800d709b7f840d1a6336484a62136d3e5c6c47322a26b9ead8623"
+    },
+    {
+      "slug": "star-wars-outlaws",
+      "passed": true,
+      "installed_files": 7592,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "0b20da543eaf0b4d645146e294a29d440a4a03ab49a3cfc85c956938426adaa4"
+    },
+    {
+      "slug": "the-blood-of-dawnwalker",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "c7f4aaac624b6141022a7067d2dcf77cd1905d443d15fa5a271f73f0fef396e9"
+    },
+    {
+      "slug": "burnout-paradise-remastered",
+      "passed": true,
+      "installed_files": 3,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "80fbd8ef85abe43fe64956aeff14b8532d446cfa6569bf944b348c01395899d9"
+    },
+    {
+      "slug": "wuchang-fallen-feathers",
+      "passed": true,
+      "installed_files": 5,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "7fb282897bde320522e8b4b90d6817981259655d12e1be11f58a23d0eaf5f8d9"
+    },
+    {
+      "slug": "wreckfest-2",
+      "passed": true,
+      "installed_files": 1038,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "48d4b6d3c58bef5447b18f09a7df2ed97fc08d5020ab949a47ec87059c2dc79b"
+    },
+    {
+      "slug": "vampire-the-masquerade-bloodlines-2",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "5e0e49654dd17be2635da2e86adf797e44fb4667926aadc209f9acbdd364792f"
+    },
+    {
+      "slug": "until-dawn",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "2b2887d097ee5e0ffec6da22ab6afa8eda1ebfe550d997d29b557ec8f972bc83"
+    },
+    {
+      "slug": "tony-hawk-s-pro-skater-3-4",
+      "passed": true,
+      "installed_files": 11,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "12adf275f8710a9f8f66aa58cf33fcc79f779119d8d2231f36eed3d12f6efda0"
+    },
+    {
+      "slug": "the-talos-principle-reawakened",
+      "passed": true,
+      "installed_files": 3,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "1f701aac9f59001f08ac1e5471656ce53522abcece407d05f13826499c8861e9"
+    },
+    {
+      "slug": "the-outer-worlds-2",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "ba27eaf4ec8ceeb7e6be2f153abcd5a12aeb90bf1a99060d70474c642fe6c8e1"
+    },
+    {
+      "slug": "the-medium",
+      "passed": true,
+      "installed_files": 5,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "dbedc6ea532b577402f67e62844d6445d4e4ece61280710b7008e8312d776f11"
+    },
+    {
+      "slug": "the-elder-scrolls-iv-oblivion-remastered",
+      "passed": true,
+      "installed_files": 4,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "3e511228a7b43385710bd84ddc60f8099e1105c15a20884b3c920201071abd6d"
+    },
+    {
+      "slug": "the-callisto-protocol",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "798cd540ee1bdd131bc53af99fa1d29dc14e380d7efca29ba6648610d4c1f279"
+    },
+    {
+      "slug": "styx-blades-of-greed",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "26c37bc4166babb5f648d906dc8cc5648f62e47a6359cc1706b8de697892936b"
+    },
+    {
+      "slug": "stellar-blade",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "f75672eb65d44009f42aa25387979921ccf86e8d047d1f78cc0637d7c067398e"
+    },
+    {
+      "slug": "starfield",
+      "passed": true,
+      "installed_files": 9,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 2,
+      "sha256": "fb9a8b40cf367cf615954284dfb1f93235ae42ca7bb27b7833a6c9e4f693b256"
+    },
+    {
+      "slug": "star-wars-jedi-survivor",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 1,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "90f5d9dfc4ec5d8259a509d7e1037c5ec048ce11f837b49aac79b6f0c7fa0e06"
+    },
+    {
+      "slug": "south-of-midnight",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "22b068bcecc1ec2ad929372ccced80cd249823b0c663df22e80428748b7794b9"
+    },
+    {
+      "slug": "silent-hill-2",
+      "passed": true,
+      "installed_files": 5,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "b882b60c1407c7493a0cd03863386f32951568f6ed3479b43f282d4e0236f27f"
+    },
+    {
+      "slug": "samson",
+      "passed": true,
+      "installed_files": 3,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "4f378ab5c5c1f8b52799048383e4f13407d46fb37be738da50f31906936e5d37"
+    },
+    {
+      "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+      "passed": true,
+      "installed_files": 11,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "215039d45f173f47da5d0968f8250dae12bd885446306b07a138d8618916438d"
+    },
+    {
+      "slug": "robocop-rogue-city-unfinished-business",
+      "passed": true,
+      "installed_files": 5,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "1103e83ea41e6a0635804d839c4b0376322b4dd8debbb3f1cf93148163ec7d3f"
+    },
+    {
+      "slug": "robocop-rogue-city",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "4c6c9f70973eb9f6acb32d107c40775f02fa34de4a071305625a5e9ea9db1ba1"
+    },
+    {
+      "slug": "reanimal",
+      "passed": true,
+      "installed_files": 5,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "84578854c73aa7844c6e3f881c7fbef6920ff17b60fc5fa596edc4f5e6dfb893"
+    },
+    {
+      "slug": "pacific-drive",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "93a8b12f348ebefc457fd87e797d0e06f0f828dc352b91eeb5541fb1425a68ce"
+    },
+    {
+      "slug": "nobody-wants-to-die",
+      "passed": true,
+      "installed_files": 4,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "7fc675baba1ca2f85702c9aaf50b14c1a1a12186f43e40c17abe9881973eee48"
+    },
+    {
+      "slug": "ninja-gaiden-2-black",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "a4b061dacf694c2bad43517de97c6043b6bf775f26efa7dc04b989d70683071f"
+    },
+    {
+      "slug": "need-for-speed-most-wanted-2012",
+      "passed": true,
+      "installed_files": 1489,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "98f92ce44cdfe1656b17b03843887598498cbbf7c9d15654bf9e87c3a8d24431"
+    },
+    {
+      "slug": "need-for-speed-heat",
+      "passed": true,
+      "installed_files": 6,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "bdae1221761ee7162c1f025579b4cc8032685359b86e2c1a8efed01b00ea1be2"
+    },
+    {
+      "slug": "mortal-kombat-1",
+      "passed": true,
+      "installed_files": 6,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "d92c35592fd02f4e53a5f042b16a48b5d9181544b8c30a48f1c8efbc0dc5a2a7"
+    },
+    {
+      "slug": "mindseye",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "d8d3e1e0a5d3e7eeabb698bfbff9186a6ebcd16222a291ff748b46e67778b1a8"
+    },
+    {
+      "slug": "metal-gear-solid-snake-eater",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "bb70dac426b9d3a423697c06c0928ac319313e1c765055d90a26e22e5bed209e"
+    },
+    {
+      "slug": "marvel-s-spider-man-2",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "1e7d04c23cce4fcedc8004e08fbc2b12bf64f0c1a744623c0aafbef902d30be1"
+    },
+    {
+      "slug": "mafia-the-old-country",
+      "passed": true,
+      "installed_files": 26,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "da2927746e424536ff5671b305baf5e32b491520bc72d4fdcff0dffd0c92ad09"
+    },
+    {
+      "slug": "lego-batman-legacy-of-the-dark-knight",
+      "passed": true,
+      "installed_files": 10,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "ad005746bcf9c8611855e5a7e828553f19b796ccb0555d9691a8513d7f09f291"
+    },
+    {
+      "slug": "karma-the-dark-world",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "89c5e8b108341bf7c2904e2c27d2fdd4612901a86a602502f517501794c11b57"
+    },
+    {
+      "slug": "jdm-japanese-drift-master",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "9ecc919548acbe9fcdac26ded13fd5477154b89434704c13ad9140e780a940f9"
+    },
+    {
+      "slug": "indiana-jones-and-the-great-circle",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 1,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "e26a4a2b84d8efdfea9ff194ca37bc135d1faebc7ffa5038b0b2613361e222ba"
+    },
+    {
+      "slug": "hell-is-us",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "b3b36ab1ce67cbfb8b460d809bc58e0921826b711dff2ae2b3668cdaebd0a46b"
+    },
+    {
+      "slug": "halo-campaign-evolved",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "87d8c8257742d64023f077aa7a1451d60d010e2b814f8290aec5d448aee5dd78"
+    },
+    {
+      "slug": "gothic-1-remake",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "192262ce3843014885fe1bce0927f56a7be07d72c5ff80e561cdfa4872108ade"
+    },
+    {
+      "slug": "eriksholm-the-stolen-dream",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "7c6d359a48f83629845c0148aced9330149457abd7a76895f9c4daffc1f86db0"
+    },
+    {
+      "slug": "dying-light-the-beast",
+      "passed": true,
+      "installed_files": 3,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "f031417b522bc77cdad83c628c93de880729239841ce8e92008562635b312780"
+    },
+    {
+      "slug": "doom-the-dark-ages",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "9937b0590c6f9fd2a8d8c1dbe43446e9d536979dba400f98504a4e58f207e89d"
+    },
+    {
+      "slug": "death-stranding-2-on-the-beach",
+      "passed": true,
+      "installed_files": 3,
+      "removed_files": 0,
+      "launch_options": true,
+      "assets": 1,
+      "sha256": "2a716fc097666eadcefff633ae49f2bcfab7f7882dae86fad53a55932f2841bd"
+    },
+    {
+      "slug": "darwins-paradox",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "88210da722a6431b095ef341e8589152fee3c9818b38a89439641d1d26cd28b7"
+    },
+    {
+      "slug": "cyberpunk-2077",
+      "passed": true,
+      "installed_files": 5,
+      "removed_files": 2,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "2f952e51dc237368ecb2ba92b77103a80c5e2637601c65d858db2acd7410f4da"
+    },
+    {
+      "slug": "cronos-the-new-dawn",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "6e7041d0706e2e39768383cc73a63e06a2e3214b2de027da271630cbb430f54b"
+    },
+    {
+      "slug": "crisol-theater-of-idols",
+      "passed": true,
+      "installed_files": 2,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "351c76f3e58975be64c1533aeb8004c4405dcc07d039e57894059a59c05dfb07"
+    },
+    {
+      "slug": "clair-obscur-expedition-33",
+      "passed": true,
+      "installed_files": 8,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "472f8bd752da35ecd79909a0e7d8ffd6e00de3ab4bd8a369242df94c8cbc4af7"
+    },
+    {
+      "slug": "carmageddon-rogue-shift",
+      "passed": true,
+      "installed_files": 4,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "ddbf8b33fd01043115c44ffc405014378b27e1cdcd8eb0daa2f562ed2a3121db"
+    },
+    {
+      "slug": "avowed",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "e240edbcd0df5f6eef44017d90997c8ac40a382f8ba54c4151d542855db207f5"
+    },
+    {
+      "slug": "aphelion",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "66095850e9eb4889c00f74387be86c6471af2731051ec56c2d1ba51a53cd0429"
+    },
+    {
+      "slug": "alan-wake-2",
+      "passed": true,
+      "installed_files": 1,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "e8696b8c26c2972302869fd2c837fc95260035430f580312d87591def23855f6"
+    },
+    {
+      "slug": "optimizaciya-dlya-007-first-light",
+      "passed": true,
+      "installed_files": 4,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "b8d109253806f70ffcf74b15fe21f2ed5124f116d0bde80fb100b46ad48a8715"
+    },
+    {
+      "slug": "indika",
+      "passed": true,
+      "installed_files": 4,
+      "removed_files": 0,
+      "launch_options": false,
+      "assets": 1,
+      "sha256": "11d87d654a48389502d2f310ced886a87f6fb9437eee21e276b5d83b5575a8e2"
+    }
+  ],
+  "date": "2026-10-25",
+  "unit_tests_passed": 25,
+  "react_ui_tests_passed": true,
+  "production_https_range_download_verified": true,
+  "steam_deck_gameplay_validated": false,
+  "release_version": "0.2.4",
+  "build_mismatch_confirmation_tested": true
+}

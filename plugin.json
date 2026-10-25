@@ -1,0 +1,10 @@
+{
+  "name": "Decky Eclipse",
+  "author": "sunim87",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["eclipse", "optimization", "mods"],
+    "description": "ECLIPSE 최적화 모드를 게임별로 다운로드하고 적용·복구합니다."
+  }
+}

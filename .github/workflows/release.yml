@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Verify release version
+        run: test "$GITHUB_REF_NAME" = "v$(node -p "require('./package.json').version")"
+      - run: npm ci
+      - run: npm run typecheck
+      - run: python -m unittest discover -s tests -v
+      - run: npm run test:ui
+      - run: npm run build
+      - run: python scripts/package.py
+      - name: Publish ZIP and checksum
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/release_notes.py "$GITHUB_REF_NAME" > "$RUNNER_TEMP/release-notes.md"
+          gh release create "$GITHUB_REF_NAME" \
+            "../Decky-Eclipse-$GITHUB_REF_NAME.zip" \
+            "../Decky-Eclipse-$GITHUB_REF_NAME.zip.sha256" \
+            --verify-tag --title "Decky Eclipse $GITHUB_REF_NAME" \
+            --notes-file "$RUNNER_TEMP/release-notes.md"

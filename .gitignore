@@ -1,0 +1,12 @@
+node_modules/
+dist/
+__pycache__/
+tests/__pycache__/
+tmp*/
+testharness/.bundle.mjs
+research/
+*.zip
+*.zip.sha256
+.env
+.env.*
+*.log

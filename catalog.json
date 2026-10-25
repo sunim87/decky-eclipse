@@ -1,0 +1,582 @@
+[
+  {
+    "slug": "black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "type": "ready",
+    "gameVersionEn": "1.0.21.23831. Build - 21393610",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Black_Myth_Wukong_b21393610_Graphics_Opt_Mod_18.09.2026.rar",
+    "modFileName": "Black_Myth_Wukong_b21393610_Graphics_Opt_Mod_18.09.2026.rar",
+    "modFileSize": 262887062,
+    "updatedAt": "2026-10-21T22:55:23.000Z"
+  },
+  {
+    "slug": "hogwarts-legacy",
+    "title": "Hogwarts Legacy",
+    "type": "ready",
+    "gameVersionEn": "1613387, 1117238, 1613387.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Hogwarts_Legacy_Graphics_Opt_Mod_30.07.2026.rar",
+    "modFileName": "Hogwarts_Legacy_Graphics_Opt_Mod_30.07.2026.rar",
+    "modFileSize": 646925356,
+    "updatedAt": "2026-10-21T22:55:23.000Z"
+  },
+  {
+    "slug": "star-wars-outlaws",
+    "title": "Star Wars Outlaws",
+    "type": "ready",
+    "gameVersionEn": "1.7. Build - 18870567",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Star_Wars_Outlaws_1.7_Graphics_Opt_Mod_10.10.2026.rar",
+    "modFileName": "Star_Wars_Outlaws_1.7_Graphics_Opt_Mod_10.10.2026.rar",
+    "modFileSize": 927910928,
+    "updatedAt": "2026-10-10T10:12:50.000Z"
+  },
+  {
+    "slug": "the-blood-of-dawnwalker",
+    "title": "The Blood of Dawnwalker",
+    "type": "ready",
+    "gameVersionEn": "1.0.5. Build - 25232147",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Blood_of_Dawnwalker_v1.0.5_Graphics_Opt_Mod_14.09.2026.rar",
+    "modFileName": "The_Blood_of_Dawnwalker_v1.0.5_Graphics_Opt_Mod_14.09.2026.rar",
+    "modFileSize": 148398609,
+    "updatedAt": "2026-09-14T12:11:00.000Z"
+  },
+  {
+    "slug": "burnout-paradise-remastered",
+    "title": "Burnout Paradise Remastered",
+    "type": "ready",
+    "gameVersionEn": "Pirated copy of the game, version - 1.0.0.0",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Burnout_Paradise_Remastered_v1.0.0.0_Graphics_Mod_23.08.2026.rar",
+    "modFileName": "Burnout_Paradise_Remastered_v1.0.0.0_Graphics_Mod_23.08.2026.rar",
+    "modFileSize": 148330234,
+    "updatedAt": "2026-08-27T06:39:45.000Z"
+  },
+  {
+    "slug": "wuchang-fallen-feathers",
+    "title": "WUCHANG: Fallen Feathers",
+    "type": "ready",
+    "gameVersionEn": "179951. Build - 20781879",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Wuchang_Fallen_Feathers_v179951_Graphics_Opt_Mod_06.03.2026.rar",
+    "modFileName": "Wuchang_Fallen_Feathers_v179951_Graphics_Opt_Mod_06.03.2026.rar",
+    "modFileSize": 88493790,
+    "updatedAt": "2026-08-27T22:19:30.000Z"
+  },
+  {
+    "slug": "wreckfest-2",
+    "title": "Wreckfest 2",
+    "type": "ready",
+    "gameVersionEn": "0.359951. Build - 22265154",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Wreckfest_2_v0.359951_Graphics_Opt_Mod_14.03.2026.rar",
+    "modFileName": "Wreckfest_2_v0.359951_Graphics_Opt_Mod_14.03.2026.rar",
+    "modFileSize": 149854235,
+    "updatedAt": "2026-08-27T22:21:39.000Z"
+  },
+  {
+    "slug": "vampire-the-masquerade-bloodlines-2",
+    "title": "Vampire: The Masquerade — Bloodlines 2",
+    "type": "ready",
+    "gameVersionEn": "1.0.5.1. Build - 21718394",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/VTMB_2_v1.0.5.1_Graphics_Opt_Mod_18.03.2026.rar",
+    "modFileName": "VTMB_2_v1.0.5.1_Graphics_Opt_Mod_18.03.2026.rar",
+    "modFileSize": 28423,
+    "updatedAt": "2026-08-27T22:23:59.000Z"
+  },
+  {
+    "slug": "until-dawn",
+    "title": "Until Dawn",
+    "type": "ready",
+    "gameVersionEn": "Build 20076348, or 16633318",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Until_Dawn_b20076348_Graphics_Opt_Mod_19.07.2026.rar",
+    "modFileName": "Until_Dawn_b20076348_Graphics_Opt_Mod_19.07.2026.rar",
+    "modFileSize": 22546080,
+    "updatedAt": "2026-08-27T22:24:52.000Z"
+  },
+  {
+    "slug": "tony-hawk-s-pro-skater-3-4",
+    "title": "Tony Hawk's Pro Skater 3 + 4",
+    "type": "ready",
+    "gameVersionEn": "Build - 18871623",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/THPS_3%2B4_b18871623_Graphics_Opt_Mod_12.07.2025.rar",
+    "modFileName": "THPS_3+4_b18871623_Graphics_Opt_Mod_12.07.2025.rar",
+    "modFileSize": 48330001,
+    "updatedAt": "2026-08-25T14:51:08.000Z"
+  },
+  {
+    "slug": "the-talos-principle-reawakened",
+    "title": "The Talos Principle Reawakened",
+    "type": "ready",
+    "gameVersionEn": "739124. Build - 20246915",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Talos_Principle_Reawakened_v739124_Graphics_Opt_Mod_23.11.2025.rar",
+    "modFileName": "The_Talos_Principle_Reawakened_v739124_Graphics_Opt_Mod_23.11.2025.rar",
+    "modFileSize": 53710,
+    "updatedAt": "2026-08-25T14:47:56.000Z"
+  },
+  {
+    "slug": "the-outer-worlds-2",
+    "title": "The Outer Worlds 2",
+    "type": "ready",
+    "gameVersionEn": "1.2.0.1. Build - 24225441",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Outer_Worlds_2_v1.2.0.1_Graphics_Opt_Mod_04.08.2026.rar",
+    "modFileName": "The_Outer_Worlds_2_v1.2.0.1_Graphics_Opt_Mod_04.08.2026.rar",
+    "modFileSize": 114087837,
+    "updatedAt": "2026-08-25T14:45:30.000Z"
+  },
+  {
+    "slug": "the-medium",
+    "title": "The Medium",
+    "type": "ready",
+    "gameVersionEn": "1.0.184",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Medium_v1.0.184_SteamDeck_Graphics_Opt_Mod_18.04.2025.rar",
+    "modFileName": "The_Medium_v1.0.184_SteamDeck_Graphics_Opt_Mod_18.04.2025.rar",
+    "modFileSize": 226307572,
+    "updatedAt": "2026-08-25T14:41:37.000Z"
+  },
+  {
+    "slug": "the-elder-scrolls-iv-oblivion-remastered",
+    "title": "The Elder Scrolls IV: Oblivion Remastered",
+    "type": "ready",
+    "gameVersionEn": "1.512.105.0. Build - 19115871",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/TES_IV_Oblivion_Remastered_v1.512.105.0_Graphics_Opt_Mod_19.07.2026.rar",
+    "modFileName": "TES_IV_Oblivion_Remastered_v1.512.105.0_Graphics_Opt_Mod_19.07.2026.rar",
+    "modFileSize": 21432574,
+    "updatedAt": "2026-08-25T14:37:42.000Z"
+  },
+  {
+    "slug": "the-callisto-protocol",
+    "title": "The Callisto Protocol",
+    "type": "ready",
+    "gameVersionEn": "Build - 14745831",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Callisto_Protocol_b14745831_Graphics_Opt_Mod_03.05.2026.rar",
+    "modFileName": "The_Callisto_Protocol_b14745831_Graphics_Opt_Mod_03.05.2026.rar",
+    "modFileSize": 32191095,
+    "updatedAt": "2026-08-25T14:34:40.000Z"
+  },
+  {
+    "slug": "styx-blades-of-greed",
+    "title": "Styx Blades of Greed",
+    "type": "ready",
+    "gameVersionEn": "Build - 21847243",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Styx_Blades_of_Greed_b21847243_Graphics_Opt_Mod_21.02.2026.rar",
+    "modFileName": "Styx_Blades_of_Greed_b21847243_Graphics_Opt_Mod_21.02.2026.rar",
+    "modFileSize": 45486622,
+    "updatedAt": "2026-08-25T14:31:38.000Z"
+  },
+  {
+    "slug": "stellar-blade",
+    "title": "Stellar Blade",
+    "type": "ready",
+    "gameVersionEn": "1.4.1. Build - 19963153",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026.rar",
+    "modFileName": "Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026.rar",
+    "modFileSize": 29664,
+    "updatedAt": "2026-08-25T14:27:44.000Z"
+  },
+  {
+    "slug": "starfield",
+    "title": "Starfield",
+    "type": "ready",
+    "gameVersionEn": "1.15.222.0. Build -  19278288",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Starfield_v1.15.222.0_Graphics_Opt_Mod_21.10.2025.rar",
+    "modFileName": "Starfield_v1.15.222.0_Graphics_Opt_Mod_21.10.2025.rar",
+    "modFileSize": 27187711,
+    "updatedAt": "2026-08-27T20:42:44.000Z"
+  },
+  {
+    "slug": "star-wars-jedi-survivor",
+    "title": "STAR WARS Jedi: Survivor",
+    "type": "ready",
+    "gameVersionEn": "Patch 9",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/STAR_WARS_Jedi_Survivor_Patch_9_Graphics_Opt_Mod_05.07.2025.rar",
+    "modFileName": "STAR_WARS_Jedi_Survivor_Patch_9_Graphics_Opt_Mod_05.07.2025.rar",
+    "modFileSize": 31122492,
+    "updatedAt": "2026-08-25T14:01:55.000Z"
+  },
+  {
+    "slug": "south-of-midnight",
+    "title": "South of Midnight",
+    "type": "ready",
+    "gameVersionEn": "1.3.0.186489. Build - 18848520",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/South_of_Midnight_v1.3.0.186489_Graphics_Opt_Mod_26.01.2026.rar",
+    "modFileName": "South_of_Midnight_v1.3.0.186489_Graphics_Opt_Mod_26.01.2026.rar",
+    "modFileSize": 27366089,
+    "updatedAt": "2026-08-25T13:57:50.000Z"
+  },
+  {
+    "slug": "silent-hill-2",
+    "title": "Silent Hill 2",
+    "type": "ready",
+    "gameVersionEn": "1.1.258.834. Build - 17080069",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Silent_Hill_2_SteamDeck_v1.1.258.834_Graphics_Opt_Mod_02.07.2025.rar",
+    "modFileName": "Silent_Hill_2_SteamDeck_v1.1.258.834_Graphics_Opt_Mod_02.07.2025.rar",
+    "modFileSize": 39606730,
+    "updatedAt": "2026-08-25T13:54:45.000Z"
+  },
+  {
+    "slug": "samson",
+    "title": "Samson",
+    "type": "ready",
+    "gameVersionEn": "Build - 22995049",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Samson_b22995049_Graphics_Opt_Mod_05.05.2026.rar",
+    "modFileName": "Samson_b22995049_Graphics_Opt_Mod_05.05.2026.rar",
+    "modFileSize": 31555,
+    "updatedAt": "2026-08-25T12:54:25.000Z"
+  },
+  {
+    "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+    "title": "S.T.A.L.K.E.R. 2 Heart of Chornobyl",
+    "type": "ready",
+    "gameVersionEn": "1.7.1. Build - 20874210",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/STALKER_2_v1.7.1_Graphics_Opt_Mod_25.11.2025.rar",
+    "modFileName": "STALKER_2_v1.7.1_Graphics_Opt_Mod_25.11.2025.rar",
+    "modFileSize": 59126180,
+    "updatedAt": "2026-08-25T12:51:10.000Z"
+  },
+  {
+    "slug": "robocop-rogue-city-unfinished-business",
+    "title": "Robocop Rogue City Unfinished Business",
+    "type": "ready",
+    "gameVersionEn": "1.0.3.0. Build - 19527669",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Robocop_Rogue_City_Unfinished_Business_v1.0.3.0_Graphics_Opt_Mod_07.07.2026.rar",
+    "modFileName": "Robocop_Rogue_City_Unfinished_Business_v1.0.3.0_Graphics_Opt_Mod_07.07.2026.rar",
+    "modFileSize": 64347093,
+    "updatedAt": "2026-08-25T12:45:39.000Z"
+  },
+  {
+    "slug": "robocop-rogue-city",
+    "title": "RoboCop Rogue City",
+    "type": "ready",
+    "gameVersionEn": "1.7.0.0. Build - 22227522",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/RoboCop_Rogue_City_v1.7.0.0_Graphics_Opt_Mod_05.07.2026.rar",
+    "modFileName": "RoboCop_Rogue_City_v1.7.0.0_Graphics_Opt_Mod_05.07.2026.rar",
+    "modFileSize": 84185529,
+    "updatedAt": "2026-08-25T12:41:55.000Z"
+  },
+  {
+    "slug": "reanimal",
+    "title": "Reanimal",
+    "type": "ready",
+    "gameVersionEn": "354342. Build - 21746371",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Reanimal_v354342_Graphics_Opt_Mod_17.02.2026.rar",
+    "modFileName": "Reanimal_v354342_Graphics_Opt_Mod_17.02.2026.rar",
+    "modFileSize": 50536724,
+    "updatedAt": "2026-08-25T12:38:24.000Z"
+  },
+  {
+    "slug": "pacific-drive",
+    "title": "Pacific Drive",
+    "type": "ready",
+    "gameVersionEn": "1.14.0. Build - 21896301",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Pacific_Drive_v1.15.0_Graphics_Opt_Mod_27.02.2026.rar",
+    "modFileName": "Pacific_Drive_v1.15.0_Graphics_Opt_Mod_27.02.2026.rar",
+    "modFileSize": 25921287,
+    "updatedAt": "2026-08-25T12:35:47.000Z"
+  },
+  {
+    "slug": "nobody-wants-to-die",
+    "title": "Nobody Wants to Die",
+    "type": "ready",
+    "gameVersionEn": "1.0.1.0.46.065",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Nobody_Wants_to_Die_v1.0.1.0.46.065_Graphics_Opt_Mod_09.07.2025.rar",
+    "modFileName": "Nobody_Wants_to_Die_v1.0.1.0.46.065_Graphics_Opt_Mod_09.07.2025.rar",
+    "modFileSize": 705480,
+    "updatedAt": "2026-08-25T12:33:10.000Z"
+  },
+  {
+    "slug": "ninja-gaiden-2-black",
+    "title": "NINJA GAIDEN 2 Black",
+    "type": "ready",
+    "gameVersionEn": "1.0.7.0. Build - 17251493",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/NINJA_GAIDEN_2_Black_v1.0.7.0_Graphics_Opt_Mod_09.12.2025.rar",
+    "modFileName": "NINJA_GAIDEN_2_Black_v1.0.7.0_Graphics_Opt_Mod_09.12.2025.rar",
+    "modFileSize": 40984414,
+    "updatedAt": "2026-08-25T12:29:45.000Z"
+  },
+  {
+    "slug": "need-for-speed-most-wanted-2012",
+    "title": "Need for Speed Most Wanted (2012)",
+    "type": "ready",
+    "gameVersionEn": "Pirated copy, version - 1.5.0.0",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/NFS_Most_Wanted_2012_v1.5.0.0_Graphics_Mod_17.08.2026.rar",
+    "modFileName": "NFS_Most_Wanted_2012_v1.5.0.0_Graphics_Mod_17.08.2026.rar",
+    "modFileSize": 2122194251,
+    "updatedAt": "2026-08-25T15:26:10.000Z"
+  },
+  {
+    "slug": "need-for-speed-heat",
+    "title": "Need For Speed Heat",
+    "type": "ready",
+    "gameVersionEn": "1.0.60.7040. Build - 10351341",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Need_For_Speed_Heat_v1.0.60.7040_Graphics_Opt_Mod_09.11.2025.rar",
+    "modFileName": "Need_For_Speed_Heat_v1.0.60.7040_Graphics_Opt_Mod_09.11.2025.rar",
+    "modFileSize": 1545145,
+    "updatedAt": "2026-08-25T12:10:36.000Z"
+  },
+  {
+    "slug": "mortal-kombat-1",
+    "title": "Mortal Kombat 1",
+    "type": "ready",
+    "gameVersionEn": "Build - 17941244",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Mortal_Kombat_1_b17941244_Graphics_Opt_Mod_06.07.2025.rar",
+    "modFileName": "Mortal_Kombat_1_b17941244_Graphics_Opt_Mod_06.07.2025.rar",
+    "modFileSize": 193365334,
+    "updatedAt": "2026-08-25T12:05:34.000Z"
+  },
+  {
+    "slug": "mindseye",
+    "title": "MindsEye",
+    "type": "ready",
+    "gameVersionEn": "6508009. Build - 21757906",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/MindsEye_v6508009_Graphics_Opt_Mod_04.03.2026.rar",
+    "modFileName": "MindsEye_v6508009_Graphics_Opt_Mod_04.03.2026.rar",
+    "modFileSize": 55261243,
+    "updatedAt": "2026-08-25T12:01:23.000Z"
+  },
+  {
+    "slug": "metal-gear-solid-snake-eater",
+    "title": "METAL GEAR SOLID Δ: SNAKE EATER",
+    "type": "ready",
+    "gameVersionEn": "1.2.4. Build - 21521628",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/MGS_%CE%94_SNAKE_EATER_v1.2.4_Graphics_Opt_Mod_21.02.2026.rar",
+    "modFileName": "MGS_Δ_SNAKE_EATER_v1.2.4_Graphics_Opt_Mod_21.02.2026.rar",
+    "modFileSize": 70836398,
+    "updatedAt": "2026-08-25T11:59:00.000Z"
+  },
+  {
+    "slug": "marvel-s-spider-man-2",
+    "title": "Marvel's Spider-Man 2",
+    "type": "ready",
+    "gameVersionEn": "1.526.0.0. Build - 18610748",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Marvel%27s_Spider-Man_2_v2.810.0.0_Graphics_Opt_Mod_22.10.2026.rar",
+    "modFileName": "Marvel's_Spider-Man_2_v2.810.0.0_Graphics_Opt_Mod_22.10.2026.rar",
+    "modFileSize": 87438678,
+    "updatedAt": "2026-10-22T09:29:55.000Z"
+  },
+  {
+    "slug": "mafia-the-old-country",
+    "title": "Mafia The Old Country",
+    "type": "ready",
+    "gameVersionEn": "Build - 20951841.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Mafia_The_Old_Country_b20951841_Graphics_Opt_Mod_11.06.2026.rar",
+    "modFileName": "Mafia_The_Old_Country_b20951841_Graphics_Opt_Mod_11.06.2026.rar",
+    "modFileSize": 340946184,
+    "updatedAt": "2026-08-25T11:50:32.000Z"
+  },
+  {
+    "slug": "lego-batman-legacy-of-the-dark-knight",
+    "title": "LEGO Batman: Legacy of the Dark Knight",
+    "type": "ready",
+    "gameVersionEn": "Build - 23222834.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/LEGO_Batman_LotDK_b23222834_Graphics_Opt_Mod_31.05.2026.rar",
+    "modFileName": "LEGO_Batman_LotDK_b23222834_Graphics_Opt_Mod_31.05.2026.rar",
+    "modFileSize": 268261533,
+    "updatedAt": "2026-08-25T11:50:36.000Z"
+  },
+  {
+    "slug": "karma-the-dark-world",
+    "title": "KARMA The Dark World",
+    "type": "ready",
+    "gameVersionEn": "Build - 17844576",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/KARMA_SteamDeck_Build_17844576_Graphics_Opt_Mod_01.04.2025.rar",
+    "modFileName": "KARMA_SteamDeck_Build_17844576_Graphics_Opt_Mod_01.04.2025.rar",
+    "modFileSize": 40806873,
+    "updatedAt": "2026-08-25T11:19:54.000Z"
+  },
+  {
+    "slug": "jdm-japanese-drift-master",
+    "title": "JDM: Japanese Drift Master",
+    "type": "ready",
+    "gameVersionEn": "Build - 23818333.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/JDM_Japanese_Drift_Master_b23818333_Graphics_Opt_Mod_24.07.2026.rar",
+    "modFileName": "JDM_Japanese_Drift_Master_b23818333_Graphics_Opt_Mod_24.07.2026.rar",
+    "modFileSize": 69644959,
+    "updatedAt": "2026-08-25T11:50:53.000Z"
+  },
+  {
+    "slug": "indiana-jones-and-the-great-circle",
+    "title": "Indiana Jones and the Great Circle",
+    "type": "ready",
+    "gameVersionEn": "1.0.12.0. Build - 20338839.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Indiana_Jones_v1.0.12.0_Graphics_Opt_Mod_22.10.2025.rar",
+    "modFileName": "Indiana_Jones_v1.0.12.0_Graphics_Opt_Mod_22.10.2025.rar",
+    "modFileSize": 20090877,
+    "updatedAt": "2026-08-25T11:50:59.000Z"
+  },
+  {
+    "slug": "hell-is-us",
+    "title": "Hell is Us",
+    "type": "ready",
+    "gameVersionEn": "1.6.47.48410. Build - 22619438.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Hell_is_Us_v1.6.47.48410_Graphics_Opt_Mod_04.05.2026.rar",
+    "modFileName": "Hell_is_Us_v1.6.47.48410_Graphics_Opt_Mod_04.05.2026.rar",
+    "modFileSize": 45611740,
+    "updatedAt": "2026-08-25T11:51:03.000Z"
+  },
+  {
+    "slug": "halo-campaign-evolved",
+    "title": "Halo: Campaign Evolved",
+    "type": "ready",
+    "gameVersionEn": "Build - 24439566.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Halo_Campaign_Evolved_b24439566_Graphics_Opt_Mod_02.08.2026.rar",
+    "modFileName": "Halo_Campaign_Evolved_b24439566_Graphics_Opt_Mod_02.08.2026.rar",
+    "modFileSize": 85846044,
+    "updatedAt": "2026-08-25T11:51:08.000Z"
+  },
+  {
+    "slug": "gothic-1-remake",
+    "title": "Gothic 1 Remake",
+    "type": "ready",
+    "gameVersionEn": "Build - 24340829.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Gothic_1_Remake_b24340829_Graphics_Opt_Mod_02.08.2026.rar",
+    "modFileName": "Gothic_1_Remake_b24340829_Graphics_Opt_Mod_02.08.2026.rar",
+    "modFileSize": 27472056,
+    "updatedAt": "2026-08-25T11:51:20.000Z"
+  },
+  {
+    "slug": "eriksholm-the-stolen-dream",
+    "title": "Eriksholm The Stolen Dream",
+    "type": "ready",
+    "gameVersionEn": "1.2. Build - 19191817.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Eriksholm_The_Stolen_Dream_v1.2_Graphics_Opt_Mod_16.07.2025.rar",
+    "modFileName": "Eriksholm_The_Stolen_Dream_v1.2_Graphics_Opt_Mod_16.07.2025.rar",
+    "modFileSize": 40538036,
+    "updatedAt": "2026-08-25T11:51:49.000Z"
+  },
+  {
+    "slug": "dying-light-the-beast",
+    "title": "Dying Light The Beast",
+    "type": "ready",
+    "gameVersionEn": "1.2.5. Build -  20432820.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Dying_Light_The_Beast_v1.2.5_Graphics_Opt_Mod_21.10.2025.rar",
+    "modFileName": "Dying_Light_The_Beast_v1.2.5_Graphics_Opt_Mod_21.10.2025.rar",
+    "modFileSize": 165697326,
+    "updatedAt": "2026-08-25T11:51:58.000Z"
+  },
+  {
+    "slug": "doom-the-dark-ages",
+    "title": "DOOM The Dark Ages",
+    "type": "ready",
+    "gameVersionEn": "Build - 23888600.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/DOOM_The_Dark_Ages_b23888600_Graphics_Opt_Mod_08.07.2026.rar",
+    "modFileName": "DOOM_The_Dark_Ages_b23888600_Graphics_Opt_Mod_08.07.2026.rar",
+    "modFileSize": 45254799,
+    "updatedAt": "2026-08-25T10:35:03.000Z"
+  },
+  {
+    "slug": "death-stranding-2-on-the-beach",
+    "title": "Death Stranding 2 On The Beach",
+    "type": "ready",
+    "gameVersionEn": "1.10.89.0. Build - 23923251.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/DS_2_On_The_Beach_v1.10.89.0_Graphics_Opt_Mod_04.07.2026.rar",
+    "modFileName": "DS_2_On_The_Beach_v1.10.89.0_Graphics_Opt_Mod_04.07.2026.rar",
+    "modFileSize": 57951819,
+    "updatedAt": "2026-08-25T10:29:18.000Z"
+  },
+  {
+    "slug": "darwins-paradox",
+    "title": "Darwins Paradox",
+    "type": "ready",
+    "gameVersionEn": "1.0.1.24747. Build - 22328089.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Darwins_Paradox_v1.0.1.24747_Graphics_Opt_Mod_08.04.2026.rar",
+    "modFileName": "Darwins_Paradox_v1.0.1.24747_Graphics_Opt_Mod_08.04.2026.rar",
+    "modFileSize": 42357553,
+    "updatedAt": "2026-08-25T11:52:14.000Z"
+  },
+  {
+    "slug": "cyberpunk-2077",
+    "title": "Cyberpunk 2077",
+    "type": "ready",
+    "gameVersionEn": "2.31",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Cyberpunk_2077_v2.3_Graphics_Opt_Mod_19.07.2025.rar",
+    "modFileName": "Cyberpunk_2077_v2.3_Graphics_Opt_Mod_19.07.2025.rar",
+    "modFileSize": 53168114,
+    "updatedAt": "2026-08-25T10:12:18.000Z"
+  },
+  {
+    "slug": "cronos-the-new-dawn",
+    "title": "Cronos The New Dawn",
+    "type": "ready",
+    "gameVersionEn": "20250908_2250-323631. Build - 19916678.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Cronos_The_New_Dawn_b19916678_Graphics_Opt_Mod_15.09.2025.rar",
+    "modFileName": "Cronos_The_New_Dawn_b19916678_Graphics_Opt_Mod_15.09.2025.rar",
+    "modFileSize": 52503410,
+    "updatedAt": "2026-08-25T11:52:06.000Z"
+  },
+  {
+    "slug": "crisol-theater-of-idols",
+    "title": "Crisol Theater of Idols",
+    "type": "ready",
+    "gameVersionEn": "1.1. Build - 22197285",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Crisol_Theater_of_Idols_v1.1_Graphics_Opt_Mod_07.03.2026.rar",
+    "modFileName": "Crisol_Theater_of_Idols_v1.1_Graphics_Opt_Mod_07.03.2026.rar",
+    "modFileSize": 46386887,
+    "updatedAt": "2026-08-25T09:57:25.000Z"
+  },
+  {
+    "slug": "clair-obscur-expedition-33",
+    "title": "Clair Obscur: Expedition 33",
+    "type": "ready",
+    "gameVersionEn": "1.5.6/68322. Build - 23765773.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Clair_Obscur_Expedition_33_v68322_Graphics_Opt_Mod_03.07.2026.rar",
+    "modFileName": "Clair_Obscur_Expedition_33_v68322_Graphics_Opt_Mod_03.07.2026.rar",
+    "modFileSize": 85333785,
+    "updatedAt": "2026-08-25T11:51:31.000Z"
+  },
+  {
+    "slug": "carmageddon-rogue-shift",
+    "title": "Carmageddon: Rogue Shift",
+    "type": "ready",
+    "gameVersionEn": "1.3.0. Build - 22096863",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Carmageddon_Rogue_Shift_v1.3.0_Graphics_Opt_Mod_11.03.2026.rar",
+    "modFileName": "Carmageddon_Rogue_Shift_v1.3.0_Graphics_Opt_Mod_11.03.2026.rar",
+    "modFileSize": 54100360,
+    "updatedAt": "2026-08-16T10:14:59.000Z"
+  },
+  {
+    "slug": "avowed",
+    "title": "Avowed",
+    "type": "ready",
+    "gameVersionEn": "2.0.0.0. Build - 21896425.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Avowed_v2.0.0.0_Graphics_Opt_Mod_03.03.2026.rar",
+    "modFileName": "Avowed_v2.0.0.0_Graphics_Opt_Mod_03.03.2026.rar",
+    "modFileSize": 2090709,
+    "updatedAt": "2026-08-25T11:51:39.000Z"
+  },
+  {
+    "slug": "aphelion",
+    "title": "Aphelion",
+    "type": "ready",
+    "gameVersionEn": "1.03.1628077. Build - 22817886",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Aphelion_v1.03.1628077_Graphics_Opt_Mod_03.05.2026.rar",
+    "modFileName": "Aphelion_v1.03.1628077_Graphics_Opt_Mod_03.05.2026.rar",
+    "modFileSize": 24464,
+    "updatedAt": "2026-08-16T10:13:33.000Z"
+  },
+  {
+    "slug": "alan-wake-2",
+    "title": "Alan Wake 2",
+    "type": "ready",
+    "gameVersionEn": "1.2.8",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Alan_Wake_2_v1.2.8_SteamDeck_Optimization_Mod_14.03.2025.rar",
+    "modFileName": "Alan_Wake_2_v1.2.8_SteamDeck_Optimization_Mod_14.03.2025.rar",
+    "modFileSize": 14773650,
+    "updatedAt": "2026-08-16T10:15:23.000Z"
+  },
+  {
+    "slug": "optimizaciya-dlya-007-first-light",
+    "title": "007 First Light",
+    "type": "ready",
+    "gameVersionEn": "Cracked version - 1.0.0. Build - 23388781",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/007_First_Light_v1.0.0_Graphics_Opt_Mod_10.07.2026.rar",
+    "modFileName": "007_First_Light_v1.0.0_Graphics_Opt_Mod_10.07.2026.rar",
+    "modFileSize": 213257478,
+    "updatedAt": "2026-08-18T00:28:47.000Z"
+  },
+  {
+    "slug": "indika",
+    "title": "INDIKA",
+    "type": "ready",
+    "gameVersionEn": "15648284 (Steam), 1.0.3 (GOG)",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/INDIKA_b15648284_Graphics_Opt_Mod_22.07.2026.rar",
+    "modFileName": "INDIKA_b15648284_Graphics_Opt_Mod_22.07.2026.rar",
+    "modFileSize": 107510890,
+    "updatedAt": "2026-08-16T10:11:35.000Z"
+  }
+]
