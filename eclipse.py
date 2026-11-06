@@ -60,8 +60,13 @@ def is_steam_tool(name, root):
 
 
 def match_mod(game, items):
-    items = [i for i in items if i.get('modFileUrl') and i.get('type', 'ready') == 'ready']
+    items = [i for i in items if i.get('modFileUrl') and (i.get('type', 'ready') == 'ready' or i.get('approved_type'))]
     by_id = [i for i in items if i.get('appid') == game['appid']]
+    exact = [i for i in by_id if game.get('build') in i.get('builds', [])]
+    if len(exact) == 1:
+        return exact[0]
+    superseded = {i.get('supersedes') for i in by_id if i.get('supersedes')}
+    by_id = [i for i in by_id if i['slug'] not in superseded]
     if len(by_id) == 1:
         return by_id[0]
     keys = {game_key(game['name'])}
@@ -175,7 +180,7 @@ class EclipseManager:
         return completed
 
     def catalog(self, refresh=False):
-        cache = self.settings / 'catalog.json'
+        cache = self.settings / 'catalog-v2.json'
         error = None
         if refresh:
             try:
@@ -190,8 +195,12 @@ class EclipseManager:
         items = json.loads(path.read_text(encoding='utf8'))
         for item in items:
             recipe = self.recipes.get(item['slug'])
-            item['supported'] = bool(recipe and recipe['url'] == item['modFileUrl'] and item.get('type', 'ready') == 'ready')
+            item_type = item.get('type', 'ready')
+            item['approved_type'] = bool(recipe and item_type == recipe.get('approved_type', 'ready'))
+            item['supported'] = bool(recipe and recipe['url'] == item['modFileUrl'] and item['approved_type'])
             item['appid'] = recipe['appid'] if recipe else None
+            item['builds'] = recipe.get('builds', []) if recipe else []
+            item['supersedes'] = recipe.get('supersedes') if recipe else None
             item['page'] = SOURCE + '/' + item['slug']
         return {'items': items, 'error': error, 'cached': not refresh or bool(error)}
 

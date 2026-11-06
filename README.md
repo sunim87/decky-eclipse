@@ -2,12 +2,12 @@
 
 Steam Deck에서 ECLIPSE 최적화 모드를 다운로드·설치·복구하는 한국어 Decky Loader 플러그인입니다.
 
-**현재 버전: v0.2.4** · [릴리스 다운로드](https://github.com/sunim87/decky-eclipse/releases/latest) · [58개 지원 게임](docs/SUPPORTED_GAMES.md) · [변경 내역](CHANGELOG.md)
+**현재 버전: v0.2.5** · [릴리스 다운로드](https://github.com/sunim87/decky-eclipse/releases/latest) · [59개 지원 게임](docs/SUPPORTED_GAMES.md) · [변경 내역](CHANGELOG.md)
 
 ## 주요 기능
 
 - Steam 라이브러리와 microSD에 설치된 게임 탐색, 비 Steam 게임 바로가기 인식
-- ECLIPSE 배포 목록 58개 전체의 자동 다운로드·압축 해제·백업·설치·원상 복구
+- 지원 게임 59개(배포본 60개)의 자동 다운로드·압축 해제·백업·설치·원상 복구
 - 게임별 설정 화면에서 설치·복구, 전체 진행률 및 다운로드·백업·복사 상태 표시
 - 게임 목록에서 Proton, Steam Linux Runtime, Steamworks 재배포 패키지, ProtonPlus 등 도구 제외
 - 필요한 시작 옵션과 Proton DLL 자동 설정 및 설치 전 상태로 복구

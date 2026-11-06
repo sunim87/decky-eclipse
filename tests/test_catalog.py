@@ -2,14 +2,25 @@ import json
 from pathlib import Path
 import re
 import unittest
+from eclipse import EclipseManager, match_mod
 
 
 class CatalogCoverageTests(unittest.TestCase):
-    def test_all_58_releases_have_pinned_installation_recipes(self):
+    def test_reviewed_other_mods_and_cyberpunk_port_selection(self):
+        root = Path(__file__).parents[1]
+        manager = EclipseManager(root, root/'tests', root/'tests', root)
+        items = manager.catalog()['items']
+        cyberpunk = match_mod({'appid': '1091500', 'name': 'Cyberpunk 2077', 'build': '26161058'}, items)
+        self.assertEqual(cyberpunk['slug'], 'cyberpunk-2077-2')
+        self.assertTrue(cyberpunk['supported'])
+        witcher = match_mod({'appid': '292030', 'name': 'The Witcher 3'}, items)
+        self.assertTrue(witcher['supported'])
+
+    def test_all_releases_have_pinned_installation_recipes(self):
         root=Path(__file__).parents[1]
         catalog=json.loads((root/'catalog.json').read_text(encoding='utf8'))
         recipes=json.loads((root/'recipes.json').read_text(encoding='utf8'))
-        self.assertEqual(len(catalog),58)
+        self.assertEqual(len(catalog),60)
         self.assertEqual({i['slug'] for i in catalog},set(recipes))
         appids=[]
         for item in catalog:
@@ -26,8 +37,8 @@ class CatalogCoverageTests(unittest.TestCase):
                 self.assertTrue(asset['url'].startswith('https://file.steamdeckbase.org/'))
                 for rel in asset['files']:
                     self.assertFalse(rel.startswith('/') or '..' in Path(rel).parts)
-        self.assertEqual(len(appids),57)
-        self.assertEqual(len(set(appids)),57)
+        self.assertEqual(len(appids),59)
+        self.assertEqual(len(set(appids)),58)
         self.assertIn('extras',recipes['starfield'])
         self.assertGreater(recipes['starfield']['extras'][0]['size'],8_000_000_000)
         self.assertIn('prefix_copies',recipes['need-for-speed-heat'])

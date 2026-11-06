@@ -2,6 +2,7 @@
 import json
 import os
 from pathlib import Path
+from urllib.parse import urlsplit
 import re
 import shutil
 import stat
@@ -139,18 +140,22 @@ def apply(manager, slug, appid, launch_before=None, allow_build_mismatch=False):
         if shutil.disk_usage(manager.runtime).free < total_download + unpacked + 64*1024**2:
             raise ValueError('모드 다운로드와 압축 해제를 위한 공간이 부족합니다.')
         downloaded = 0
+        archives = []
         for n,asset in enumerate(assets):
             start=2+63*downloaded/max(total_download,1)
             downloaded += asset.get('size',0)
             manager.download_window=(start,2+63*downloaded/max(total_download,1))
-            manager.download(asset,work/f'payload-{n}.rar')
+            suffix = Path(urlsplit(asset['url']).path).suffix.lower()
+            archive = work / f"payload-{n}{suffix if suffix in {'.rar', '.zip', '.7z'} else '.rar'}"
+            manager.download(asset, archive)
+            archives.append(archive)
         plans = {}
         primary_files = {}
         for n,asset in enumerate(assets):
             dest=work/f'extracted-{n}';dest.mkdir()
             manager.extraction_files=[asset['payload']+'/'+p for p in asset['files']]
             manager.extract_percent=68+7*n/len(assets)
-            manager.extract(work/f'payload-{n}.rar',dest)
+            manager.extract(archives[n], dest)
             files=validate_files(dest,asset)
             if n==0:
                 primary_files=files

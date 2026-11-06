@@ -9067,12 +9067,12 @@
     "anchor_dirs": [
       "SB/Content/Paks"
     ],
-    "unpacked_size": 24429,
+    "unpacked_size": 24250,
     "version": "1.4.1, Build - 19963153.",
     "notes": [],
-    "sha256": "f75672eb65d44009f42aa25387979921ccf86e8d047d1f78cc0637d7c067398e",
-    "size": 29664,
-    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026.rar",
+    "sha256": "192a88e0cf2a833b7f987cc14762cd9cff8513c6ab702f977bbaecbca9b80b4d",
+    "size": 51941,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026_water_fix.zip",
     "launch": {
       "env": {
         "SteamDeck": "0"
@@ -11652,5 +11652,65 @@
     "sha256": "11d87d654a48389502d2f310ced886a87f6fb9437eee21e276b5d83b5575a8e2",
     "size": 107510890,
     "url": "https://file.steamdeckbase.org/Eclipse_Mods/INDIKA_b15648284_Graphics_Opt_Mod_22.07.2026.rar"
+  },
+  "cyberpunk-2077-2": {
+    "appid": "1091500",
+    "builds": [
+      "26161058"
+    ],
+    "version": "2.5",
+    "payload": "v2/Cyberpunk 2077",
+    "anchors": [
+      "bin/x64/Cyberpunk2077.exe"
+    ],
+    "remove": [
+      {
+        "path": "archive/pc/content/basegame_3_nightcity_gi.archive"
+      },
+      {
+        "path": "archive/pc/ep1/ep1_1_nightcity_gi.archive"
+      },
+      {
+        "path": "archive/pc/mod/weather.archive"
+      }
+    ],
+    "supersedes": "cyberpunk-2077",
+    "approved_type": "other",
+    "notes": [
+      "스팀 2.5용 비공식 포트이며, 데칼을 끄는 v2를 적용합니다. 게임 내 AMD 동시 멀티스레딩은 직접 끄세요."
+    ],
+    "files": [
+      "archive/pc/mod/no_intro.archive",
+      "archive/pc/mod/optimization.archive",
+      "bin/x64/Cyberpunk2077.exe",
+      "engine/config/platform/pc/rendering.ini"
+    ],
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Cyberpunk_2077_v2.5_Graphics_Opt_Mod_Eclipse-Port_27.10.2026.7z",
+    "size": 52036523,
+    "sha256": "bbadb32cb00986b3d5d44ac47335e5288a4c1f9daaa836755b7d72cce7a98d75",
+    "unpacked_size": 146324231
+  },
+  "vedmak-3-dikaya-ohota-obnovlennoe-izdanie": {
+    "appid": "292030",
+    "builds": [
+      "26238013"
+    ],
+    "version": "5.0.16",
+    "payload": "The Witcher 3",
+    "anchors": [
+      "bin/x64_dx12/witcher3.exe"
+    ],
+    "approved_type": "other",
+    "notes": [
+      "Steam DX12 배포본입니다. 게임에서 모드(mod.io)를 끄고, FSR 품질과 동적 해상도 등 그래픽 옵션은 배포 안내에 따라 설정하세요. 복구 후에는 게임 내 그래픽 프리셋을 다시 선택하세요."
+    ],
+    "files": [
+      "bin/config/platform/pc/rendering.ini",
+      "bin/config/r4game/user_config_matrix/pc/graphics.xml"
+    ],
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/The_Witcher_3_v5.0.16_Graphics_Opt_Mod_31.10.2026.7z",
+    "size": 11728,
+    "sha256": "0e19d84401d3fbe6d59cfd1e6af023891b17cc8f68deccc5c20cfc77093de900",
+    "unpacked_size": 54946
   }
 }

@@ -164,10 +164,10 @@
     "title": "Stellar Blade",
     "type": "ready",
     "gameVersionEn": "1.4.1. Build - 19963153",
-    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026.rar",
-    "modFileName": "Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026.rar",
-    "modFileSize": 29664,
-    "updatedAt": "2026-08-25T14:27:44.000Z"
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026_water_fix.zip",
+    "modFileName": "Stellar_Blade_v1.4.1_Graphics_Opt_Mod_19.04.2026_water_fix.zip",
+    "modFileSize": 51941,
+    "updatedAt": "2026-11-03T11:43:16.000Z"
   },
   {
     "slug": "starfield",
@@ -578,5 +578,25 @@
     "modFileName": "INDIKA_b15648284_Graphics_Opt_Mod_22.07.2026.rar",
     "modFileSize": 107510890,
     "updatedAt": "2026-08-16T10:11:35.000Z"
+  },
+  {
+    "slug": "cyberpunk-2077-2",
+    "title": "Cyberpunk 2077",
+    "type": "other",
+    "gameVersionEn": "2.5",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/Cyberpunk_2077_v2.5_Graphics_Opt_Mod_Eclipse-Port_27.10.2026.7z",
+    "modFileName": "Cyberpunk_2077_v2.5_Graphics_Opt_Mod_Eclipse-Port_27.10.2026.7z",
+    "modFileSize": 52036523,
+    "updatedAt": "2026-11-03T11:52:47.000Z"
+  },
+  {
+    "slug": "vedmak-3-dikaya-ohota-obnovlennoe-izdanie",
+    "title": "Ведьмак 3: Дикая Охота — Обновлённое издание",
+    "type": "other",
+    "gameVersionEn": "5.0.16",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Witcher_3_v5.0.16_Graphics_Opt_Mod_31.10.2026.7z",
+    "modFileName": "The_Witcher_3_v5.0.16_Graphics_Opt_Mod_31.10.2026.7z",
+    "modFileSize": 11728,
+    "updatedAt": "2026-11-03T11:41:57.000Z"
   }
 ]

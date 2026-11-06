@@ -1,4 +1,4 @@
-# 자동 설치 지원 게임 58개
+# 자동 설치 지원 게임 59개 · 배포본 60개
 
 모든 항목에 자동 다운로드·압축 해제·백업·적용·원상 복구 규칙이 있습니다. 지원 버전과 제작자의 조건은 아래를 확인하세요. 실제 Steam Deck 게임 플레이 호환성은 별도로 확인해야 합니다.
 
@@ -15,6 +15,7 @@
 | Crisol Theater of Idols | 1790930 | 22197285 | 2 | Crisol Theater of Idols |
 | Cronos The New Dawn | 2101960 | 19916678 | 2 | Cronos The New Dawn |
 | Cyberpunk 2077 | 1091500 | 2.3 | 5 | v2/Cyberpunk 2077 |
+| Cyberpunk 2077 (2.5 비공식 포트) | 1091500 | 26161058 | 4 | v2/Cyberpunk 2077 |
 | Darwins Paradox | 2989180 | 22328089 | 2 | For Licence/Darwins Paradox |
 | Death Stranding 2 On The Beach | 3280350 | 23923251 | 3 | Death Stranding 2 On The Beach |
 | DOOM The Dark Ages | 3017860 | 23888600 | 2 | For Licence/DOOMTheDarkAges |
@@ -55,6 +56,7 @@
 | The Callisto Protocol | 1544020 | 14745831 | 2 | For Licence/The Callisto Protocol |
 | The Elder Scrolls IV: Oblivion Remastered | 2623190 | 19115871 | 4 | The Elder Scrolls IV Oblivion Remastered |
 | The Medium | 1293160 | 1.0.184 | 5 | The Medium |
+| The Witcher 3: Wild Hunt (Steam DX12) | 292030 | 26238013 | 2 | The Witcher 3 |
 | The Outer Worlds 2 | 1449110 | 24225441 | 8 | For Licence/The Outer Worlds 2 |
 | The Talos Principle Reawakened | 2806640 | 20246915 | 3 | The Talos Principle Reawakened |
 | Tony Hawk's Pro Skater 3 + 4 | 2545710 | 18871623 | 11 | For Licence/Tony Hawks Pro Skater 3 Plus 4 |
