@@ -104,7 +104,7 @@ def apply(manager, slug, appid, launch_before=None, allow_build_mismatch=False):
             raise ValueError('선택한 게임과 모드가 일치하지 않습니다.')
         current = next(i for i in manager.catalog()['items'] if i['slug']==slug)
         if not current['supported']:
-            raise ValueError('배포 파일 주소가 변경되었습니다. 플러그인을 업데이트하세요.')
+            raise ValueError('배포 파일과 검증된 설치 규칙이 일치하지 않습니다. 배포 목록을 새로고침하세요.')
         mismatch=bool(recipe.get('builds') and game.get('source')!='shortcut' and game['build'] not in recipe['builds'])
         if mismatch and allow_build_mismatch is not True:
             raise ValueError('설치된 게임 빌드가 다릅니다. 지원 빌드: ' + ', '.join(recipe['builds']))

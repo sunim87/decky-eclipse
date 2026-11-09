@@ -13,7 +13,8 @@ import unicodedata
 import urllib.parse
 import urllib.request
 
-SOURCE = 'https://www.steamdeckbase.org/optimization'
+SOURCE = 'https://steamdeckbase.org/optimization'
+RECIPES_URL = 'https://raw.githubusercontent.com/sunim87/decky-eclipse/main/recipes.json'
 FILE_HOST = 'file.steamdeckbase.org'
 LIMIT = 16 * 1024**3
 CA_BUNDLES = (
@@ -60,7 +61,8 @@ def is_steam_tool(name, root):
 
 
 def match_mod(game, items):
-    items = [i for i in items if i.get('modFileUrl') and (i.get('type', 'ready') == 'ready' or i.get('approved_type'))]
+    downloadable = [i for i in items if i.get('modFileUrl')]
+    items = [i for i in downloadable if i.get('type', 'ready') == 'ready' or i.get('approved_type')]
     by_id = [i for i in items if i.get('appid') == game['appid']]
     exact = [i for i in by_id if game.get('build') in i.get('builds', [])]
     if len(exact) == 1:
@@ -74,6 +76,8 @@ def match_mod(game, items):
         keys.add(game_key(Path(game['path']).name))
     keys.discard('')
     matches = [i for i in items if keys.intersection((game_key(i['title']), game_key(i['slug'])))]
+    if not matches:
+        matches = [i for i in downloadable if i.get('type') == 'other' and game_key(i['title']) in keys]
     return matches[0] if len(matches) == 1 else None
 
 
@@ -152,6 +156,71 @@ def open_url(url, host, headers=None):
         urllib.request.Request(url, headers={'User-Agent': 'Decky-Eclipse/0.2', **(headers or {})}), timeout=45)
 
 
+def validate_recipes(recipes):
+    """Check the repository feed before replacing the last usable recipe set."""
+    def require(condition):
+        if not condition:
+            raise ValueError('설치 규칙 형식이 올바르지 않습니다.')
+
+    def path(value):
+        require(isinstance(value, str) and bool(value) and
+                not re.search(r'[\\:\x00-\x1f*?]', value) and
+                all(part not in ('', '.', '..') for part in value.split('/')))
+
+    def paths(values):
+        require(isinstance(values, list))
+        for value in values:
+            path(value)
+        require(len({v.casefold() for v in values}) == len(values))
+
+    require(isinstance(recipes, dict) and 0 < len(recipes) <= 1000)
+    for slug, rule in recipes.items():
+        require(re.fullmatch(r'[a-z0-9-]+', slug) and isinstance(rule, dict))
+        appid = rule['appid']
+        require(appid is None or isinstance(appid, str) and re.fullmatch(r'[0-9]+', appid))
+        require(rule.get('approved_type', 'ready') in ('ready', 'other'))
+        require(isinstance(rule['version'], str))
+        require(isinstance(rule['builds'], list) and
+                all(isinstance(b, str) and re.fullmatch(r'[0-9]+', b) for b in rule['builds']))
+        require(isinstance(rule.get('notes', []), list) and
+                all(isinstance(note, str) for note in rule.get('notes', [])))
+        if 'supersedes' in rule:
+            replaced = rule['supersedes']
+            require(replaced != slug and replaced in recipes and recipes[replaced]['appid'] == appid)
+        for asset in [rule] + rule.get('extras', []):
+            validate_url(asset['url'], FILE_HOST)
+            require(asset.get('scope', 'game') == 'game')
+            require(re.fullmatch(r'[0-9a-f]{64}', asset['sha256']))
+            require(type(asset['size']) is int and 0 < asset['size'] <= LIMIT)
+            require(type(asset['unpacked_size']) is int and 0 < asset['unpacked_size'] <= 4 * LIMIT)
+            path(asset['payload'])
+            paths(asset['files'])
+            require(bool(asset['files']))
+        for name in ('anchors', 'anchor_dirs'):
+            paths(rule.get(name, []))
+        for entry in rule.get('remove', []):
+            if set(entry) == {'path'}:
+                path(entry['path'])
+            else:
+                require(set(entry) == {'folder', 'glob'} and re.fullmatch(r'\*[A-Za-z0-9_.-]+\*', entry['glob']))
+                path(entry['folder'])
+        for entry in rule.get('prefix_copies', []):
+            require(entry['source'] in rule['files'] and re.fullmatch(r'[A-Za-z0-9_.-]+\.dll', entry['path'], re.I))
+        launch = rule.get('launch', {})
+        require(set(launch) <= {'env', 'args'} and re.fullmatch(r'[A-Za-z0-9 +_.=\-]*', launch.get('args', '')))
+        for name, value in launch.get('env', {}).items():
+            require(name in ('SteamDeck', 'WINEDLLOVERRIDES') and re.fullmatch(r'[A-Za-z0-9_.,=;\-]+', value))
+    return recipes
+
+
+def fetch_json(url, host, parse):
+    with open_url(url, host, {'Cache-Control': 'no-cache'}) as response:
+        raw = response.read(8 * 1024**2 + 1)
+    if len(raw) > 8 * 1024**2:
+        raise ValueError('목록 응답이 너무 큽니다.')
+    return parse(raw.decode('utf8'))
+
+
 class EclipseManager:
     def __init__(self, plugin, settings, runtime, home):
         self.plugin, self.settings, self.runtime, self.home = map(Path, (plugin, settings, runtime, home))
@@ -160,6 +229,12 @@ class EclipseManager:
         self.lock = threading.Lock()
         self.progress = {'phase': 'idle', 'message': '대기 중', 'percent': 0, 'appid': None}
         self.recipes = json.loads((self.plugin / 'recipes.json').read_text(encoding='utf8'))
+        self.recipe_cache = self.settings / 'recipes-v1.json'
+        if self.recipe_cache.is_file():
+            try:
+                self.recipes = validate_recipes(json.loads(self.recipe_cache.read_text(encoding='utf8')))
+            except (OSError, ValueError, TypeError, KeyError, AttributeError):
+                pass
 
     def status(self):
         return dict(self.progress)
@@ -183,21 +258,33 @@ class EclipseManager:
         cache = self.settings / 'catalog-v2.json'
         error = None
         if refresh:
-            try:
-                with open_url(SOURCE, 'www.steamdeckbase.org') as r:
-                    raw = r.read(8 * 1024**2 + 1)
-                    if len(raw) > 8 * 1024**2:
-                        raise ValueError('목록 응답이 너무 큽니다.')
-                    save(cache, parse_catalog(raw.decode('utf8')))
-            except Exception as exc:
-                error = str(exc)
+            errors = []
+            if self.lock.acquire(blocking=False):
+                try:
+                    try:
+                        recipes = fetch_json(RECIPES_URL, 'raw.githubusercontent.com',
+                                             lambda raw: validate_recipes(json.loads(raw)))
+                        save(self.recipe_cache, recipes)
+                        self.recipes = recipes
+                    except Exception:
+                        errors.append('저장된 설치 규칙을 사용합니다.')
+                    try:
+                        save(cache, fetch_json(SOURCE, 'steamdeckbase.org', parse_catalog))
+                    except Exception:
+                        errors.append('저장된 배포 목록을 사용합니다.')
+                finally:
+                    self.lock.release()
+            else:
+                errors.append('설치 또는 복구가 끝난 뒤 다시 시도하세요.')
+            error = ' '.join(errors) or None
         path = cache if cache.exists() else self.plugin / 'catalog.json'
         items = json.loads(path.read_text(encoding='utf8'))
         for item in items:
             recipe = self.recipes.get(item['slug'])
             item_type = item.get('type', 'ready')
             item['approved_type'] = bool(recipe and item_type == recipe.get('approved_type', 'ready'))
-            item['supported'] = bool(recipe and recipe['url'] == item['modFileUrl'] and item['approved_type'])
+            item['supported'] = bool(recipe and recipe['url'] == item['modFileUrl'] and item['approved_type']
+                                     and (item.get('modFileSize') is None or recipe.get('size') == item['modFileSize']))
             item['appid'] = recipe['appid'] if recipe else None
             item['builds'] = recipe.get('builds', []) if recipe else []
             item['supersedes'] = recipe.get('supersedes') if recipe else None
@@ -249,21 +336,28 @@ class EclipseManager:
             if not mod:
                 reason = '배포 목록에서 이 게임의 ECLIPSE 모드를 찾지 못했습니다.'
             elif not mod['supported']:
-                reason = '배포 파일이 변경되었습니다. 플러그인을 업데이트하세요.'
+                reason = '새 배포본의 설치 규칙을 검증 중입니다. 나중에 배포 목록을 새로고침하세요.'
             elif build_mismatch:
                 reason = '설치된 빌드와 지원 빌드가 다릅니다. 지원 빌드: ' + ', '.join(recipe['builds'])
             else:
                 reason = '자동 다운로드 및 설치를 지원합니다.'
             state_path = self.journal(game['appid'])
             state = json.loads(state_path.read_text(encoding='utf8')) if state_path.exists() else {}
+            notes = list(recipe.get('notes', [])) if recipe else []
+            if can_install:
+                for item in items:
+                    if (item is not mod and not item['supported'] and item.get('modFileUrl')
+                            and item.get('type') in ('ready', 'other')
+                            and game_key(item['title']) == game_key(mod['title'])):
+                        notes.append(f"새 배포본 {item.get('gameVersionEn') or ''} · 검증 대기")
             game.update(installed=state_path.exists(), launch_required=bool(recipe and recipe.get('launch')),
                         launch_pending=state.get('phase') in ('install_launch_pending', 'restore_launch_pending'),
-                        notes=recipe.get('notes',[]) if recipe else [],
+                        notes=notes,
                         download_size=sum(a.get('size',0) for a in ([recipe]+recipe.get('extras',[]))) if recipe else 0,
                         mod_available=bool(mod), build_mismatch=build_mismatch, mod_slug=mod['slug'] if mod else None,
                         mod_title=mod['title'] if mod else None,
                         mod_version=recipe.get('version',mod.get('gameVersionEn')) if recipe and mod else mod.get('gameVersionEn') if mod else None,
-                        can_install=can_install, support_reason=reason)
+                        can_install=can_install, verification_pending=bool(mod and not can_install), support_reason=reason)
         return sorted(games, key=lambda g: (not g['mod_available'], g['name'].lower()))
 
     def journal(self, appid):

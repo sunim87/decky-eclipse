@@ -16,6 +16,31 @@ spec.loader.exec_module(eclipse)
 
 
 class ManagerTests(unittest.TestCase):
+    def test_refresh_enables_reviewed_release_and_keeps_last_good_rules(self):
+        old = dict(self.recipe, version='1', sha256='a' * 64, size=10, unpacked_size=20)
+        url = 'https://file.steamdeckbase.org/updated.zip'
+        item = {'slug': 'test', 'title': 'Test', 'type': 'ready', 'modFileUrl': url, 'modFileSize': 12}
+        rule = dict(old, url=url, size=12, version='2')
+        with patch.object(eclipse, 'fetch_json', side_effect=[{'test': old}, [item]]):
+            self.manager.catalog(True)
+        self.assertTrue(self.manager.game('123')['verification_pending'])
+        self.assertFalse(self.manager.game('123')['can_install'])
+
+        def fetch(url, host, parse):
+            return parse(json.dumps({'test': rule})) if url == eclipse.RECIPES_URL else [item]
+
+        with patch.object(eclipse, 'fetch_json', side_effect=fetch):
+            self.assertIsNone(self.manager.catalog(True)['error'])
+        self.assertTrue(self.manager.game('123')['can_install'])
+        self.assertEqual(self.manager.game('123')['mod_version'], '2')
+
+        rule['files'] = ['../outside']
+        with patch.object(eclipse, 'fetch_json', side_effect=fetch):
+            self.assertIn('저장된 설치 규칙', self.manager.catalog(True)['error'])
+        restarted = eclipse.EclipseManager(self.plugin, self.manager.settings, self.manager.runtime, self.home)
+        self.assertTrue(restarted.game('123')['can_install'])
+        self.assertEqual(restarted.recipes['test']['files'], old['files'])
+
     def test_bundled_ca_loads_when_python_default_store_is_empty(self):
         empty = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
         self.assertEqual(empty.cert_store_stats()['x509_ca'],0)
@@ -148,7 +173,7 @@ class ManagerTests(unittest.TestCase):
         game = self.manager.games()[0]
         self.assertTrue(game['mod_available'])
         self.assertFalse(game['can_install'])
-        self.assertIn('업데이트', game['support_reason'])
+        self.assertTrue(game['verification_pending'])
         self.assertFalse(game['build_mismatch'])
 
     def test_exact_title_matching_and_id_priority(self):
