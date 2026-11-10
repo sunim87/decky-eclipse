@@ -1,6 +1,6 @@
 {
   "name": "decky-eclipse",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "ECLIPSE 최적화 모드 다운로드, 적용 및 원상 복구",
   "type": "module",
   "scripts": {

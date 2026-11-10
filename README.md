@@ -2,7 +2,7 @@
 
 Steam Deck에서 ECLIPSE 최적화 모드를 다운로드·설치·복구하는 한국어 Decky Loader 플러그인입니다.
 
-**현재 버전: v0.2.6** · [릴리스 다운로드](https://github.com/sunim87/decky-eclipse/releases/latest) · [59개 지원 게임](docs/SUPPORTED_GAMES.md) · [변경 내역](CHANGELOG.md)
+**현재 버전: v0.2.7** · [릴리스 다운로드](https://github.com/sunim87/decky-eclipse/releases/latest) · [59개 지원 게임](docs/SUPPORTED_GAMES.md) · [변경 내역](CHANGELOG.md)
 
 ## 주요 기능
 

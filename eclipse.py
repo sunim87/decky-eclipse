@@ -282,6 +282,9 @@ class EclipseManager:
         for item in items:
             recipe = self.recipes.get(item['slug'])
             item_type = item.get('type', 'ready')
+            if item_type == 'third_party':
+                item_type = 'other'
+                item['type'] = item_type
             item['approved_type'] = bool(recipe and item_type == recipe.get('approved_type', 'ready'))
             item['supported'] = bool(recipe and recipe['url'] == item['modFileUrl'] and item['approved_type']
                                      and (item.get('modFileSize') is None or recipe.get('size') == item['modFileSize']))

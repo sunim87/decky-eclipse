@@ -16,6 +16,15 @@ spec.loader.exec_module(eclipse)
 
 
 class ManagerTests(unittest.TestCase):
+    def test_renamed_third_party_category_preserves_approved_recipe(self):
+        self.recipe['approved_type'] = 'other'
+        item = {'slug': 'test', 'title': 'Test', 'type': 'third_party', 'modFileUrl': self.recipe['url']}
+        (self.plugin / 'catalog.json').write_text(json.dumps([item]), encoding='utf8')
+        self.manager.recipes['test'] = self.recipe
+        self.assertTrue(self.manager.game('123')['can_install'])
+        self.recipe.pop('approved_type')
+        self.assertFalse(self.manager.game('123')['can_install'])
+
     def test_refresh_enables_reviewed_release_and_keeps_last_good_rules(self):
         old = dict(self.recipe, version='1', sha256='a' * 64, size=10, unpacked_size=20)
         url = 'https://file.steamdeckbase.org/updated.zip'
