@@ -598,5 +598,15 @@
     "modFileName": "The_Witcher_3_v5.0.16_Graphics_Opt_Mod_31.10.2026.7z",
     "modFileSize": 11728,
     "updatedAt": "2026-11-03T11:41:57.000Z"
+  },
+  {
+    "slug": "the-blood-of-dawnwalker-2",
+    "title": "The Blood of Dawnwalker",
+    "type": "third_party",
+    "gameVersionEn": "1.1.0.",
+    "modFileUrl": "https://file.steamdeckbase.org/Eclipse_Mods/The_Blood_of_Dawnwalker_v1_1_0_Graphics_Opt_Mod_port_08_11_2026.rar",
+    "modFileName": "The_Blood_of_Dawnwalker_v1_1_0_Graphics_Opt_Mod_port_08_11_2026.rar",
+    "modFileSize": 62626266,
+    "updatedAt": "2026-11-10T02:14:31.000Z"
   }
 ]

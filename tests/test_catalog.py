@@ -20,7 +20,7 @@ class CatalogCoverageTests(unittest.TestCase):
         root=Path(__file__).parents[1]
         catalog=json.loads((root/'catalog.json').read_text(encoding='utf8'))
         recipes=json.loads((root/'recipes.json').read_text(encoding='utf8'))
-        self.assertEqual(len(catalog),60)
+        self.assertEqual(len(catalog),61)
         self.assertEqual({i['slug'] for i in catalog},set(recipes))
         appids=[]
         for item in catalog:
@@ -37,7 +37,7 @@ class CatalogCoverageTests(unittest.TestCase):
                 self.assertTrue(asset['url'].startswith('https://file.steamdeckbase.org/'))
                 for rel in asset['files']:
                     self.assertFalse(rel.startswith('/') or '..' in Path(rel).parts)
-        self.assertEqual(len(appids),59)
+        self.assertEqual(len(appids),60)
         self.assertEqual(len(set(appids)),58)
         self.assertIn('extras',recipes['starfield'])
         self.assertGreater(recipes['starfield']['extras'][0]['size'],8_000_000_000)

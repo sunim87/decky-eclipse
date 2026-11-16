@@ -11712,5 +11712,33 @@
     "size": 11728,
     "sha256": "0e19d84401d3fbe6d59cfd1e6af023891b17cc8f68deccc5c20cfc77093de900",
     "unpacked_size": 54946
+  },
+  "the-blood-of-dawnwalker-2": {
+    "appid": "3751260",
+    "builds": [
+      "26379537"
+    ],
+    "payload": "For Licence/Mod-Dyn-Res-On-30FPS/The Blood of Dawnwalker",
+    "files": [
+      "Dawnwalker/Binaries/Win64/Dawnwalker.exe",
+      "Dawnwalker/Content/Paks/Dawnwalker-Windows_0_p.pak"
+    ],
+    "anchors": [
+      "Dawnwalker/Binaries/Win64/Dawnwalker.exe"
+    ],
+    "anchor_dirs": [
+      "Dawnwalker/Content/Paks"
+    ],
+    "unpacked_size": 179728775,
+    "version": "1.1.0 (Patch 3, internal build 265636)",
+    "notes": [
+      "Steam 정품용 비공식 포트입니다. 동적 해상도 30 FPS 목표 프리셋을 적용합니다.",
+      "포트 제작자가 지정한 내부 빌드는 265636입니다. 게임 버전이 1.1.0 패치 3인지 확인하세요."
+    ],
+    "sha256": "c2536d7de382c1da84a66c3f9541350ae5def96332e8dffde691ee911e622f6c",
+    "size": 62626266,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/The_Blood_of_Dawnwalker_v1_1_0_Graphics_Opt_Mod_port_08_11_2026.rar",
+    "approved_type": "other",
+    "supersedes": "the-blood-of-dawnwalker"
   }
 }
