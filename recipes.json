@@ -9229,7 +9229,7 @@
   "s-t-a-l-k-e-r-2-heart-of-chornobyl": {
     "appid": "1643320",
     "builds": [
-      "20874210"
+      "26123434"
     ],
     "payload": "v2/S.T.A.L.K.E.R. 2 Heart of Chornobyl",
     "files": [
@@ -9251,14 +9251,14 @@
     "anchor_dirs": [
       "Stalker2/Content/Paks"
     ],
-    "unpacked_size": 156572088,
-    "version": "1.7.1, Build - 20874210.",
+    "unpacked_size": 205870215,
+    "version": "2.1, Build - 26123434.",
     "notes": [
       "성능 우선 v2 프리셋을 설치합니다."
     ],
-    "sha256": "215039d45f173f47da5d0968f8250dae12bd885446306b07a138d8618916438d",
-    "size": 59126180,
-    "url": "https://file.steamdeckbase.org/Eclipse_Mods/STALKER_2_v1.7.1_Graphics_Opt_Mod_25.11.2025.rar"
+    "sha256": "0c319afb50be250f75543e58524102576f92aabd2bfabf41068a8079288a14b4",
+    "size": 120008650,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/STALKER_2_v2.1_Graphics_Opt_Mod_19.11.2026.rar"
   },
   "robocop-rogue-city-unfinished-business": {
     "appid": "3527760",

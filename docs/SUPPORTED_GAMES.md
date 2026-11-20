@@ -43,7 +43,7 @@
 | Reanimal | 2129530 | 21746371 | 5 | 16-10/Reanimal |
 | RoboCop Rogue City | 1681430 | 22227522 | 8 | For Licence/RoboCop Rogue City |
 | Robocop Rogue City Unfinished Business | 3527760 | 19527669 | 5 | For Licence/Robocop Rogue City Unfinished Business |
-| S.T.A.L.K.E.R. 2 Heart of Chornobyl | 1643320 | 20874210 | 11 | v2/S.T.A.L.K.E.R. 2 Heart of Chornobyl |
+| S.T.A.L.K.E.R. 2 Heart of Chornobyl | 1643320 | 26123434 | 11 | v2/S.T.A.L.K.E.R. 2 Heart of Chornobyl |
 | Samson | 3634520 | 22995049 | 3 | Samson |
 | Silent Hill 2 | 2124490 | 17080069 | 5 | Silent Hill 2 |
 | South of Midnight | 1934570 | 18848520 | 8 | South of Midnight |
