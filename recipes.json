@@ -7683,9 +7683,9 @@
       "Steam Deck용 기본 Mod 프리셋을 설치합니다. 제작자는 SDWEAK 사용 및 게임 내 그래픽 프리셋을 Medium→Low로 변경할 것을 안내합니다.",
       "SteamOS·Proton 버전에 종속되는 사전 생성 셰이더 캐시는 설치하지 않습니다. 게임에서 자체 생성합니다."
     ],
-    "sha256": "0b20da543eaf0b4d645146e294a29d440a4a03ab49a3cfc85c956938426adaa4",
-    "size": 927910928,
-    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Star_Wars_Outlaws_1.7_Graphics_Opt_Mod_10.10.2026.rar",
+    "sha256": "51ecf79fcbfe6e4b60b672bd6e74480a560de261a743c827316bde47a314ae6a",
+    "size": 927910925,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Star_Wars_Outlaws_v1.7_Graphics_Opt_Mod_10.10.2026.rar",
     "launch": {
       "env": {
         "WINEDLLOVERRIDES": "version=n,b"
@@ -9231,7 +9231,7 @@
     "builds": [
       "26123434"
     ],
-    "payload": "v2/S.T.A.L.K.E.R. 2 Heart of Chornobyl",
+    "payload": "S.T.A.L.K.E.R. 2 Heart of Chornobyl",
     "files": [
       "Stalker2/Binaries/Win64/Stalker2-Win64-Shipping.exe",
       "Stalker2/Content/Paks/pakchunk0-Windows_0_p.pak",
@@ -9251,14 +9251,14 @@
     "anchor_dirs": [
       "Stalker2/Content/Paks"
     ],
-    "unpacked_size": 205870215,
+    "unpacked_size": 205870189,
     "version": "2.1, Build - 26123434.",
     "notes": [
-      "성능 우선 v2 프리셋을 설치합니다."
+      "Steam 2.1 최적화 프리셋을 설치합니다. 설치 후 첫 실행에서 셰이더 컴파일을 완료하세요."
     ],
-    "sha256": "0c319afb50be250f75543e58524102576f92aabd2bfabf41068a8079288a14b4",
-    "size": 120008650,
-    "url": "https://file.steamdeckbase.org/Eclipse_Mods/STALKER_2_v2.1_Graphics_Opt_Mod_19.11.2026.rar"
+    "sha256": "63e65d1f9348a6db4602519e98a4d0579304808f64aa3e392711fbe1f1207b72",
+    "size": 119118129,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/STALKER_2_v2.1_Graphics_Opt_Mod_20.11.2026.rar"
   },
   "robocop-rogue-city-unfinished-business": {
     "appid": "3527760",
