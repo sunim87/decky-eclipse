@@ -7695,7 +7695,7 @@
   "the-blood-of-dawnwalker": {
     "appid": "3751260",
     "builds": [
-      "25232147"
+      "26580083"
     ],
     "payload": "For Licence/Mod-Dyn-Res-On-30FPS/The Blood of Dawnwalker",
     "files": [
@@ -7708,14 +7708,15 @@
     "anchor_dirs": [
       "Dawnwalker/Content/Paks"
     ],
-    "unpacked_size": 176370968,
-    "version": "1.0.5. Build - 25232147.",
+    "unpacked_size": 180600097,
+    "version": "1.2.0, Build - 26580083.",
     "notes": [
       "Steam Deck용 동적 해상도 30 FPS 프리셋을 설치합니다."
     ],
-    "sha256": "c7f4aaac624b6141022a7067d2dcf77cd1905d443d15fa5a271f73f0fef396e9",
-    "size": 148398609,
-    "url": "https://file.steamdeckbase.org/Eclipse_Mods/The_Blood_of_Dawnwalker_v1.0.5_Graphics_Opt_Mod_14.09.2026.rar"
+    "sha256": "49ff7eeb75d5b834240a65391e652837c414fda9adec6b6df3aefd62300b0c33",
+    "size": 145456291,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/The_Blood_of_Dawnwalker_v1.2.0_Graphics_Opt_Mod_22.11.2026.rar",
+    "supersedes": "the-blood-of-dawnwalker-2"
   },
   "burnout-paradise-remastered": {
     "appid": "1238080",
@@ -11738,7 +11739,6 @@
     "sha256": "c2536d7de382c1da84a66c3f9541350ae5def96332e8dffde691ee911e622f6c",
     "size": 62626266,
     "url": "https://file.steamdeckbase.org/Eclipse_Mods/The_Blood_of_Dawnwalker_v1_1_0_Graphics_Opt_Mod_port_08_11_2026.rar",
-    "approved_type": "other",
-    "supersedes": "the-blood-of-dawnwalker"
+    "approved_type": "other"
   }
 }

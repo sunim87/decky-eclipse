@@ -52,7 +52,7 @@
 | Starfield | 1716740 | 19278288 | 9 | For Licence v2/Starfield |
 | Stellar Blade | 3489700 | 19963153 | 1 | v1/StellarBlade |
 | Styx Blades of Greed | 3290690 | 21847243 | 2 | Styx Blades of Greed |
-| The Blood of Dawnwalker | 3751260 | 25232147 | 2 | For Licence/Mod-Dyn-Res-On-30FPS/The Blood of Dawnwalker |
+| The Blood of Dawnwalker | 3751260 | 26580083 | 2 | For Licence/Mod-Dyn-Res-On-30FPS/The Blood of Dawnwalker |
 | The Blood of Dawnwalker (1.1.0 비공식 포트) | 3751260 | 26379537 | 2 | For Licence/Mod-Dyn-Res-On-30FPS/The Blood of Dawnwalker |
 | The Callisto Protocol | 1544020 | 14745831 | 2 | For Licence/The Callisto Protocol |
 | The Elder Scrolls IV: Oblivion Remastered | 2623190 | 19115871 | 4 | The Elder Scrolls IV Oblivion Remastered |
