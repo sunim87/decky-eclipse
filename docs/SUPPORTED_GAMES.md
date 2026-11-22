@@ -21,7 +21,7 @@
 | DOOM The Dark Ages | 3017860 | 23888600 | 2 | For Licence/DOOMTheDarkAges |
 | Dying Light The Beast | 3008130 | 20432820 | 3 | Dying Light The Beast |
 | Eriksholm The Stolen Dream | 2377280 | 19191817 | 2 | Eriksholm The Stolen Dream |
-| Gothic 1 Remake | 1297900 | 24340829 | 1 | Gothic 1 Remake |
+| Gothic 1 Remake | 1297900 | 26394867 | 1 | Gothic 1 Remake |
 | Halo: Campaign Evolved | 2806050 | 24439566 | 2 | Halo Campaign Evolved |
 | Hell is Us | 1620730 | 22619438 | 8 | Hell is Us |
 | Hogwarts Legacy | 990080 | 1613387, 1117238, 1613387. | 8 | For Steam Licence/Hogwarts Legacy |

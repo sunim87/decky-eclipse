@@ -11276,7 +11276,7 @@
   "gothic-1-remake": {
     "appid": "1297900",
     "builds": [
-      "24340829"
+      "26394867"
     ],
     "payload": "Gothic 1 Remake",
     "files": [
@@ -11286,12 +11286,12 @@
     "anchor_dirs": [
       "G1R/Content/Paks"
     ],
-    "unpacked_size": 46862,
-    "version": "Build - 24340829.",
+    "unpacked_size": 47417,
+    "version": "Build - 26394867.",
     "notes": [],
-    "sha256": "192262ce3843014885fe1bce0927f56a7be07d72c5ff80e561cdfa4872108ade",
-    "size": 27472056,
-    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Gothic_1_Remake_b24340829_Graphics_Opt_Mod_02.08.2026.rar"
+    "sha256": "cf793085fc7bb8a4c0bfed0eaf5e5818b274438ca2f0288032cfa5ad6851aeab",
+    "size": 27472626,
+    "url": "https://file.steamdeckbase.org/Eclipse_Mods/Gothic_1_Remake_b26394867_Graphics_Opt_Mod_21.11.2026.rar"
   },
   "eriksholm-the-stolen-dream": {
     "appid": "2377280",
